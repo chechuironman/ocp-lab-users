@@ -50,10 +50,10 @@ metadata:
 spec:
   applicationImage: dev.local/users
   createKnativeService: false
-  expose: true
+  expose: false
   service:
     port: 3000
-    type: NodePort
+    type: ClusterIP
   stack: nodejs
   version: 1.0.0
   env:
