@@ -46,7 +46,7 @@ metadata:
     image.opencontainers.org/title: auth-1
     stack.appsody.dev/version: 0.2.6
   name: auth-1
-  namesapce: cloud-lab
+  namespace: cloud-lab
 spec:
   applicationImage: dev.local/auth-1
   createKnativeService: false
