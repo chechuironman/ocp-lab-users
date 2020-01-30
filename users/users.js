@@ -3,11 +3,7 @@ const Course = require('../models/courses');
 
 class Courses {
 
-    constructor(connection) {
-        // this.projects = projects;
-        // this.connection = mongoose.connect(config.mongoURI, { useNewUrlParser: true });
-        
-    }
+
  listCourses (req,res) {
     Course.find({},(err,courses)=>{
         console.log(courses);
