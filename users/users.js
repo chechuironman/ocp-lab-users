@@ -6,7 +6,6 @@ class Courses {
 
  listCourses (req,res) {
     Course.find({},(err,courses)=>{
-        console.log(courses);
         res.send(courses);
     })
     }
