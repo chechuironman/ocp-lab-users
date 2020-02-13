@@ -31,7 +31,7 @@ function main () {
       db,
       { useNewUrlParser: true }
     )
-    .then(() => console.log("MongoDB successfully connected"))
+    .then(() => console.log("MongoDB successfully connected for AUTH SERVICE"))
     .catch(err => console.log(err));
   console.log(db);
 //   app.get('/api/management/courses', middleware.checkToken, handlers.index);

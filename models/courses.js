@@ -13,6 +13,10 @@ const CourseSchema = new Schema({
   github: {
     type: String,
     required: true
+  },  
+  cluster: {
+    type: String,
+    required: true
   },
   expireDate: {
     type: Date, default: Date.now
