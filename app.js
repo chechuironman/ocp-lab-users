@@ -5,13 +5,16 @@ let config = require('./config/keys');
 let middleware = require('./middleware');
 const courses = require("./routes/api/users");
 const mongoose = require("mongoose");
-
+const pino = require('pino');
+const expressPino = require('express-pino-logger');
+const logger = pino({ level: process.env.LOG_LEVEL || 'info' });
+const expressLogger = expressPino({ logger });
 function main () {
   let app = express(); 
   const port = process.env.PORT || 3000;
  
   var cors=require('cors');
-
+  app.use(expressLogger);
   app.options('*', cors());
   app.use(bodyParser.urlencoded({ // Middleware
     extended: true
