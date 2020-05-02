@@ -1,0 +1,1614 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="834" it="0" lt="833" ct="479" ts="1588005861688" s="true" lb="/-1" rc="200" rm="OK" tn="" dt="text" de="" by="910" sc="1" ec="0" ng="0" na="0" hn="Chechus-MacBook-Pro-2.local">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Mon, 27 Apr 2020 16:44:22 GMT
+Server: Apache/2.4.10 (Debian) PHP/5.6.20
+Last-Modified: Wed, 09 Sep 2015 18:35:04 GMT
+ETag: &quot;399-51f54bdb4a600-gzip&quot;
+Accept-Ranges: bytes
+Vary: Accept-Encoding
+Connection: close
+Content-Type: text/html
+Set-Cookie: 5882f9e46adb84cf7ab6b3c69fdd838b=5a1d3d21b451974980dcae27b90edd89; path=/; HttpOnly
+Cache-control: private
+Content-Length: 478
+Content-Encoding: gzip
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Accept-Language: en-US,en;q=0.5
+Host: guestbook-stateless.apps.demo-lab.notesfromchechu.com
+Upgrade-Insecure-Requests: 1
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:75.0) Gecko/20100101 Firefox/75.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+</requestHeader>
+  <responseData class="java.lang.String">&lt;html ng-app=&quot;redis&quot;&gt;
+  &lt;head&gt;
+    &lt;title&gt;Guestbook&lt;/title&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css&quot;&gt;
+    &lt;script src=&quot;https://ajax.googleapis.com/ajax/libs/angularjs/1.2.12/angular.min.js&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;controllers.js&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.13.0/ui-bootstrap-tpls.js&quot;&gt;&lt;/script&gt;
+  &lt;/head&gt;
+  &lt;body ng-controller=&quot;RedisCtrl&quot;&gt;
+    &lt;div style=&quot;width: 50%; margin-left: 20px&quot;&gt;
+      &lt;h2&gt;Guestbook&lt;/h2&gt;
+    &lt;form&gt;
+    &lt;fieldset&gt;
+    &lt;input ng-model=&quot;msg&quot; placeholder=&quot;Messages&quot; class=&quot;form-control&quot; type=&quot;text&quot; name=&quot;input&quot;&gt;&lt;br&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-primary&quot; ng-click=&quot;controller.onRedis()&quot;&gt;Submit&lt;/button&gt;
+    &lt;/fieldset&gt;
+    &lt;/form&gt;
+    &lt;div&gt;
+      &lt;div ng-repeat=&quot;msg in messages track by $index&quot;&gt;
+        {{msg}}
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://guestbook-stateless.apps.demo-lab.notesfromchechu.com/</java.net.URL>
+</httpSample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="ajax.googleapis.com:443" rc="" rm="Received fatal alert: unknown_ca&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1528" sc="1" ec="1" ng="0" na="0" hn="Chechus-MacBook-Pro-2.local">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT ajax.googleapis.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="cdnjs.cloudflare.com:443" rc="" rm="Received fatal alert: unknown_ca&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1528" sc="1" ec="1" ng="0" na="0" hn="Chechus-MacBook-Pro-2.local">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT cdnjs.cloudflare.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+
+<httpSample t="854" it="0" lt="852" ct="518" ts="1588014635961" s="true" lb="/-1" rc="200" rm="OK" tn="" dt="text" de="" by="910" sc="1" ec="0" ng="0" na="0" hn="Chechus-MacBook-Pro-2.local">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Mon, 27 Apr 2020 19:10:36 GMT
+Server: Apache/2.4.10 (Debian) PHP/5.6.20
+Last-Modified: Wed, 09 Sep 2015 18:35:04 GMT
+ETag: &quot;399-51f54bdb4a600-gzip&quot;
+Accept-Ranges: bytes
+Vary: Accept-Encoding
+Connection: close
+Content-Type: text/html
+Set-Cookie: 5882f9e46adb84cf7ab6b3c69fdd838b=0c2a76fc8a1b99496f301292383f01a4; path=/; HttpOnly
+Cache-control: private
+Content-Length: 478
+Content-Encoding: gzip
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+If-Modified-Since: Wed, 09 Sep 2015 18:35:04 GMT
+If-None-Match: &quot;399-51f54bdb4a600-gzip&quot;
+Accept-Language: en-US,en;q=0.5
+Host: guestbook-stateless.apps.demo-lab.notesfromchechu.com
+Upgrade-Insecure-Requests: 1
+Cache-Control: max-age=0
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:75.0) Gecko/20100101 Firefox/75.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+</requestHeader>
+  <responseData class="java.lang.String">&lt;html ng-app=&quot;redis&quot;&gt;
+  &lt;head&gt;
+    &lt;title&gt;Guestbook&lt;/title&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css&quot;&gt;
+    &lt;script src=&quot;https://ajax.googleapis.com/ajax/libs/angularjs/1.2.12/angular.min.js&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;controllers.js&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.13.0/ui-bootstrap-tpls.js&quot;&gt;&lt;/script&gt;
+  &lt;/head&gt;
+  &lt;body ng-controller=&quot;RedisCtrl&quot;&gt;
+    &lt;div style=&quot;width: 50%; margin-left: 20px&quot;&gt;
+      &lt;h2&gt;Guestbook&lt;/h2&gt;
+    &lt;form&gt;
+    &lt;fieldset&gt;
+    &lt;input ng-model=&quot;msg&quot; placeholder=&quot;Messages&quot; class=&quot;form-control&quot; type=&quot;text&quot; name=&quot;input&quot;&gt;&lt;br&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-primary&quot; ng-click=&quot;controller.onRedis()&quot;&gt;Submit&lt;/button&gt;
+    &lt;/fieldset&gt;
+    &lt;/form&gt;
+    &lt;div&gt;
+      &lt;div ng-repeat=&quot;msg in messages track by $index&quot;&gt;
+        {{msg}}
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">5882f9e46adb84cf7ab6b3c69fdd838b=5a1d3d21b451974980dcae27b90edd89</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://guestbook-stateless.apps.demo-lab.notesfromchechu.com/</java.net.URL>
+</httpSample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="cdnjs.cloudflare.com:443" rc="" rm="Received fatal alert: unknown_ca&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1528" sc="1" ec="1" ng="0" na="0" hn="Chechus-MacBook-Pro-2.local">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT cdnjs.cloudflare.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="ajax.googleapis.com:443" rc="" rm="Received fatal alert: unknown_ca&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1528" sc="1" ec="1" ng="0" na="0" hn="Chechus-MacBook-Pro-2.local">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT ajax.googleapis.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="cdnjs.cloudflare.com:443" rc="" rm="Received fatal alert: unknown_ca&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1528" sc="1" ec="1" ng="0" na="0" hn="Chechus-MacBook-Pro-2.local">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT cdnjs.cloudflare.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+
+
+<httpSample t="449" it="0" lt="449" ct="152" ts="1588015954494" s="true" lb="/-7" rc="200" rm="OK" tn="" dt="text" de="" by="789" sc="1" ec="0" ng="0" na="0" hn="Chechus-MacBook-Pro-2.local">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Mon, 27 Apr 2020 19:32:34 GMT
+Server: Apache/2.4.10 (Debian) PHP/5.6.20
+Last-Modified: Wed, 09 Sep 2015 18:35:04 GMT
+ETag: &quot;399-51f54bdb4a600-gzip&quot;
+Accept-Ranges: bytes
+Vary: Accept-Encoding
+Connection: close
+Content-Type: text/html
+Content-Length: 478
+Content-Encoding: gzip
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+If-Modified-Since: Wed, 09 Sep 2015 18:35:04 GMT
+If-None-Match: &quot;399-51f54bdb4a600-gzip&quot;
+Accept-Language: en-US,en;q=0.5
+Host: guestbook-stateless.apps.demo-lab.notesfromchechu.com
+Upgrade-Insecure-Requests: 1
+Cache-Control: max-age=0
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:75.0) Gecko/20100101 Firefox/75.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+</requestHeader>
+  <responseData class="java.lang.String">&lt;html ng-app=&quot;redis&quot;&gt;
+  &lt;head&gt;
+    &lt;title&gt;Guestbook&lt;/title&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css&quot;&gt;
+    &lt;script src=&quot;https://ajax.googleapis.com/ajax/libs/angularjs/1.2.12/angular.min.js&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;controllers.js&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.13.0/ui-bootstrap-tpls.js&quot;&gt;&lt;/script&gt;
+  &lt;/head&gt;
+  &lt;body ng-controller=&quot;RedisCtrl&quot;&gt;
+    &lt;div style=&quot;width: 50%; margin-left: 20px&quot;&gt;
+      &lt;h2&gt;Guestbook&lt;/h2&gt;
+    &lt;form&gt;
+    &lt;fieldset&gt;
+    &lt;input ng-model=&quot;msg&quot; placeholder=&quot;Messages&quot; class=&quot;form-control&quot; type=&quot;text&quot; name=&quot;input&quot;&gt;&lt;br&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-primary&quot; ng-click=&quot;controller.onRedis()&quot;&gt;Submit&lt;/button&gt;
+    &lt;/fieldset&gt;
+    &lt;/form&gt;
+    &lt;div&gt;
+      &lt;div ng-repeat=&quot;msg in messages track by $index&quot;&gt;
+        {{msg}}
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">5882f9e46adb84cf7ab6b3c69fdd838b=0c2a76fc8a1b99496f301292383f01a4</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://guestbook-stateless.apps.demo-lab.notesfromchechu.com/</java.net.URL>
+</httpSample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="ajax.googleapis.com:443" rc="" rm="Received fatal alert: unknown_ca&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="763" sc="1" ec="1" ng="0" na="0" hn="Chechus-MacBook-Pro-2.local">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT ajax.googleapis.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="cdnjs.cloudflare.com:443" rc="" rm="Received fatal alert: unknown_ca&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1528" sc="1" ec="1" ng="0" na="0" hn="Chechus-MacBook-Pro-2.local">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT cdnjs.cloudflare.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="cdnjs.cloudflare.com:443" rc="" rm="Received fatal alert: unknown_ca&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1528" sc="1" ec="1" ng="0" na="0" hn="Chechus-MacBook-Pro-2.local">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT cdnjs.cloudflare.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+
+<httpSample t="426" it="0" lt="426" ct="129" ts="1588016504620" s="true" lb="/-13" rc="200" rm="OK" tn="" dt="text" de="" by="789" sc="1" ec="0" ng="0" na="0" hn="Chechus-MacBook-Pro-2.local">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Mon, 27 Apr 2020 19:41:44 GMT
+Server: Apache/2.4.10 (Debian) PHP/5.6.20
+Last-Modified: Wed, 09 Sep 2015 18:35:04 GMT
+ETag: &quot;399-51f54bdb4a600-gzip&quot;
+Accept-Ranges: bytes
+Vary: Accept-Encoding
+Connection: close
+Content-Type: text/html
+Content-Length: 478
+Content-Encoding: gzip
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+If-Modified-Since: Wed, 09 Sep 2015 18:35:04 GMT
+If-None-Match: &quot;399-51f54bdb4a600-gzip&quot;
+Accept-Language: en-US,en;q=0.5
+Host: guestbook-stateless.apps.demo-lab.notesfromchechu.com
+Upgrade-Insecure-Requests: 1
+Cache-Control: max-age=0
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:75.0) Gecko/20100101 Firefox/75.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+</requestHeader>
+  <responseData class="java.lang.String">&lt;html ng-app=&quot;redis&quot;&gt;
+  &lt;head&gt;
+    &lt;title&gt;Guestbook&lt;/title&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css&quot;&gt;
+    &lt;script src=&quot;https://ajax.googleapis.com/ajax/libs/angularjs/1.2.12/angular.min.js&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;controllers.js&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.13.0/ui-bootstrap-tpls.js&quot;&gt;&lt;/script&gt;
+  &lt;/head&gt;
+  &lt;body ng-controller=&quot;RedisCtrl&quot;&gt;
+    &lt;div style=&quot;width: 50%; margin-left: 20px&quot;&gt;
+      &lt;h2&gt;Guestbook&lt;/h2&gt;
+    &lt;form&gt;
+    &lt;fieldset&gt;
+    &lt;input ng-model=&quot;msg&quot; placeholder=&quot;Messages&quot; class=&quot;form-control&quot; type=&quot;text&quot; name=&quot;input&quot;&gt;&lt;br&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-primary&quot; ng-click=&quot;controller.onRedis()&quot;&gt;Submit&lt;/button&gt;
+    &lt;/fieldset&gt;
+    &lt;/form&gt;
+    &lt;div&gt;
+      &lt;div ng-repeat=&quot;msg in messages track by $index&quot;&gt;
+        {{msg}}
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">5882f9e46adb84cf7ab6b3c69fdd838b=0c2a76fc8a1b99496f301292383f01a4</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://guestbook-stateless.apps.demo-lab.notesfromchechu.com/</java.net.URL>
+</httpSample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="ajax.googleapis.com:443" rc="" rm="Received fatal alert: unknown_ca&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1528" sc="1" ec="1" ng="0" na="0" hn="Chechus-MacBook-Pro-2.local">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT ajax.googleapis.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="cdnjs.cloudflare.com:443" rc="" rm="Received fatal alert: unknown_ca&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1528" sc="1" ec="1" ng="0" na="0" hn="Chechus-MacBook-Pro-2.local">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT cdnjs.cloudflare.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="cdnjs.cloudflare.com:443" rc="" rm="Received fatal alert: unknown_ca&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1528" sc="1" ec="1" ng="0" na="0" hn="Chechus-MacBook-Pro-2.local">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT cdnjs.cloudflare.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="shavar.services.mozilla.com:443" rc="" rm="Received fatal alert: unknown_ca&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1528" sc="1" ec="1" ng="0" na="0" hn="Chechus-MacBook-Pro-2.local">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT shavar.services.mozilla.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="safebrowsing.googleapis.com:443" rc="" rm="Received fatal alert: unknown_ca&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1528" sc="1" ec="1" ng="0" na="0" hn="Chechus-MacBook-Pro-2.local">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT safebrowsing.googleapis.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="firefox.settings.services.mozilla.com:443" rc="" rm="Received fatal alert: unknown_ca&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1528" sc="1" ec="1" ng="0" na="0" hn="Chechus-MacBook-Pro-2.local">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT firefox.settings.services.mozilla.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<httpSample t="491" it="0" lt="491" ct="135" ts="1588017682032" s="true" lb="/-28" rc="200" rm="OK" tn="" dt="text" de="" by="789" sc="1" ec="0" ng="0" na="0" hn="Chechus-MacBook-Pro-2.local">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Mon, 27 Apr 2020 20:01:22 GMT
+Server: Apache/2.4.10 (Debian) PHP/5.6.20
+Last-Modified: Wed, 09 Sep 2015 18:35:04 GMT
+ETag: &quot;399-51f54bdb4a600-gzip&quot;
+Accept-Ranges: bytes
+Vary: Accept-Encoding
+Connection: close
+Content-Type: text/html
+Content-Length: 478
+Content-Encoding: gzip
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+If-Modified-Since: Wed, 09 Sep 2015 18:35:04 GMT
+If-None-Match: &quot;399-51f54bdb4a600-gzip&quot;
+Accept-Language: en-US,en;q=0.5
+Host: guestbook-stateless.apps.demo-lab.notesfromchechu.com
+Upgrade-Insecure-Requests: 1
+Cache-Control: max-age=0
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:75.0) Gecko/20100101 Firefox/75.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+</requestHeader>
+  <responseData class="java.lang.String">&lt;html ng-app=&quot;redis&quot;&gt;
+  &lt;head&gt;
+    &lt;title&gt;Guestbook&lt;/title&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css&quot;&gt;
+    &lt;script src=&quot;https://ajax.googleapis.com/ajax/libs/angularjs/1.2.12/angular.min.js&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;controllers.js&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.13.0/ui-bootstrap-tpls.js&quot;&gt;&lt;/script&gt;
+  &lt;/head&gt;
+  &lt;body ng-controller=&quot;RedisCtrl&quot;&gt;
+    &lt;div style=&quot;width: 50%; margin-left: 20px&quot;&gt;
+      &lt;h2&gt;Guestbook&lt;/h2&gt;
+    &lt;form&gt;
+    &lt;fieldset&gt;
+    &lt;input ng-model=&quot;msg&quot; placeholder=&quot;Messages&quot; class=&quot;form-control&quot; type=&quot;text&quot; name=&quot;input&quot;&gt;&lt;br&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-primary&quot; ng-click=&quot;controller.onRedis()&quot;&gt;Submit&lt;/button&gt;
+    &lt;/fieldset&gt;
+    &lt;/form&gt;
+    &lt;div&gt;
+      &lt;div ng-repeat=&quot;msg in messages track by $index&quot;&gt;
+        {{msg}}
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">5882f9e46adb84cf7ab6b3c69fdd838b=0c2a76fc8a1b99496f301292383f01a4</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://guestbook-stateless.apps.demo-lab.notesfromchechu.com/</java.net.URL>
+</httpSample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="ajax.googleapis.com:443" rc="" rm="Received fatal alert: unknown_ca&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1528" sc="1" ec="1" ng="0" na="0" hn="Chechus-MacBook-Pro-2.local">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT ajax.googleapis.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="cdnjs.cloudflare.com:443" rc="" rm="Received fatal alert: unknown_ca&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1528" sc="1" ec="1" ng="0" na="0" hn="Chechus-MacBook-Pro-2.local">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT cdnjs.cloudflare.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="cdnjs.cloudflare.com:443" rc="" rm="Received fatal alert: unknown_ca&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1528" sc="1" ec="1" ng="0" na="0" hn="Chechus-MacBook-Pro-2.local">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT cdnjs.cloudflare.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+
+<httpSample t="441" it="0" lt="441" ct="145" ts="1588017720301" s="true" lb="/-34" rc="200" rm="OK" tn="" dt="text" de="" by="789" sc="1" ec="0" ng="0" na="0" hn="Chechus-MacBook-Pro-2.local">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Mon, 27 Apr 2020 20:02:00 GMT
+Server: Apache/2.4.10 (Debian) PHP/5.6.20
+Last-Modified: Wed, 09 Sep 2015 18:35:04 GMT
+ETag: &quot;399-51f54bdb4a600-gzip&quot;
+Accept-Ranges: bytes
+Vary: Accept-Encoding
+Connection: close
+Content-Type: text/html
+Content-Length: 478
+Content-Encoding: gzip
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+If-Modified-Since: Wed, 09 Sep 2015 18:35:04 GMT
+If-None-Match: &quot;399-51f54bdb4a600-gzip&quot;
+Accept-Language: en-US,en;q=0.5
+Host: guestbook-stateless.apps.demo-lab.notesfromchechu.com
+Upgrade-Insecure-Requests: 1
+Cache-Control: max-age=0
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:75.0) Gecko/20100101 Firefox/75.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+</requestHeader>
+  <responseData class="java.lang.String">&lt;html ng-app=&quot;redis&quot;&gt;
+  &lt;head&gt;
+    &lt;title&gt;Guestbook&lt;/title&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css&quot;&gt;
+    &lt;script src=&quot;https://ajax.googleapis.com/ajax/libs/angularjs/1.2.12/angular.min.js&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;controllers.js&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.13.0/ui-bootstrap-tpls.js&quot;&gt;&lt;/script&gt;
+  &lt;/head&gt;
+  &lt;body ng-controller=&quot;RedisCtrl&quot;&gt;
+    &lt;div style=&quot;width: 50%; margin-left: 20px&quot;&gt;
+      &lt;h2&gt;Guestbook&lt;/h2&gt;
+    &lt;form&gt;
+    &lt;fieldset&gt;
+    &lt;input ng-model=&quot;msg&quot; placeholder=&quot;Messages&quot; class=&quot;form-control&quot; type=&quot;text&quot; name=&quot;input&quot;&gt;&lt;br&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-primary&quot; ng-click=&quot;controller.onRedis()&quot;&gt;Submit&lt;/button&gt;
+    &lt;/fieldset&gt;
+    &lt;/form&gt;
+    &lt;div&gt;
+      &lt;div ng-repeat=&quot;msg in messages track by $index&quot;&gt;
+        {{msg}}
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">5882f9e46adb84cf7ab6b3c69fdd838b=0c2a76fc8a1b99496f301292383f01a4</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://guestbook-stateless.apps.demo-lab.notesfromchechu.com/</java.net.URL>
+</httpSample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="ajax.googleapis.com:443" rc="" rm="Received fatal alert: unknown_ca&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1528" sc="1" ec="1" ng="0" na="0" hn="Chechus-MacBook-Pro-2.local">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT ajax.googleapis.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="cdnjs.cloudflare.com:443" rc="" rm="Received fatal alert: unknown_ca&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1528" sc="1" ec="1" ng="0" na="0" hn="Chechus-MacBook-Pro-2.local">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT cdnjs.cloudflare.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="cdnjs.cloudflare.com:443" rc="" rm="Received fatal alert: unknown_ca&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1528" sc="1" ec="1" ng="0" na="0" hn="Chechus-MacBook-Pro-2.local">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT cdnjs.cloudflare.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+
+<httpSample t="446" it="0" lt="445" ct="142" ts="1588017999012" s="true" lb="/-40" rc="200" rm="OK" tn="" dt="text" de="" by="789" sc="1" ec="0" ng="0" na="0" hn="Chechus-MacBook-Pro-2.local">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Mon, 27 Apr 2020 20:06:39 GMT
+Server: Apache/2.4.10 (Debian) PHP/5.6.20
+Last-Modified: Wed, 09 Sep 2015 18:35:04 GMT
+ETag: &quot;399-51f54bdb4a600-gzip&quot;
+Accept-Ranges: bytes
+Vary: Accept-Encoding
+Connection: close
+Content-Type: text/html
+Content-Length: 478
+Content-Encoding: gzip
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+If-Modified-Since: Wed, 09 Sep 2015 18:35:04 GMT
+If-None-Match: &quot;399-51f54bdb4a600-gzip&quot;
+Accept-Language: en-US,en;q=0.5
+Host: guestbook-stateless.apps.demo-lab.notesfromchechu.com
+Upgrade-Insecure-Requests: 1
+Cache-Control: max-age=0
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:75.0) Gecko/20100101 Firefox/75.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+</requestHeader>
+  <responseData class="java.lang.String">&lt;html ng-app=&quot;redis&quot;&gt;
+  &lt;head&gt;
+    &lt;title&gt;Guestbook&lt;/title&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css&quot;&gt;
+    &lt;script src=&quot;https://ajax.googleapis.com/ajax/libs/angularjs/1.2.12/angular.min.js&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;controllers.js&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.13.0/ui-bootstrap-tpls.js&quot;&gt;&lt;/script&gt;
+  &lt;/head&gt;
+  &lt;body ng-controller=&quot;RedisCtrl&quot;&gt;
+    &lt;div style=&quot;width: 50%; margin-left: 20px&quot;&gt;
+      &lt;h2&gt;Guestbook&lt;/h2&gt;
+    &lt;form&gt;
+    &lt;fieldset&gt;
+    &lt;input ng-model=&quot;msg&quot; placeholder=&quot;Messages&quot; class=&quot;form-control&quot; type=&quot;text&quot; name=&quot;input&quot;&gt;&lt;br&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-primary&quot; ng-click=&quot;controller.onRedis()&quot;&gt;Submit&lt;/button&gt;
+    &lt;/fieldset&gt;
+    &lt;/form&gt;
+    &lt;div&gt;
+      &lt;div ng-repeat=&quot;msg in messages track by $index&quot;&gt;
+        {{msg}}
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">5882f9e46adb84cf7ab6b3c69fdd838b=0c2a76fc8a1b99496f301292383f01a4</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://guestbook-stateless.apps.demo-lab.notesfromchechu.com/</java.net.URL>
+</httpSample>
+<httpSample t="5476" it="0" lt="5476" ct="193" ts="1588018000958" s="true" lb="/guestbook.php-45" rc="200" rm="OK" tn="" dt="text" de="" by="221" sc="1" ec="0" ng="0" na="0" hn="Chechus-MacBook-Pro-2.local">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Mon, 27 Apr 2020 20:06:41 GMT
+Server: Apache/2.4.10 (Debian) PHP/5.6.20
+X-Powered-By: PHP/5.6.20
+Content-Length: 25
+Connection: close
+Content-Type: application/json
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: http://guestbook-stateless.apps.demo-lab.notesfromchechu.com/
+Accept-Language: en-US,en;q=0.5
+Host: guestbook-stateless.apps.demo-lab.notesfromchechu.com
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:75.0) Gecko/20100101 Firefox/75.0
+Accept: application/json, text/plain, */*
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;data&quot;: &quot;,jh,deqw,qweq&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">5882f9e46adb84cf7ab6b3c69fdd838b=0c2a76fc8a1b99496f301292383f01a4</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://guestbook-stateless.apps.demo-lab.notesfromchechu.com/guestbook.php?cmd=get&amp;key=messages</java.net.URL>
+</httpSample>
+<httpSample t="447" it="0" lt="447" ct="129" ts="1588018007280" s="true" lb="/guestbook.php-46" rc="200" rm="OK" tn="" dt="text" de="" by="218" sc="1" ec="0" ng="0" na="0" hn="Chechus-MacBook-Pro-2.local">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Mon, 27 Apr 2020 20:06:47 GMT
+Server: Apache/2.4.10 (Debian) PHP/5.6.20
+X-Powered-By: PHP/5.6.20
+Content-Length: 22
+Connection: close
+Content-Type: application/json
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: http://guestbook-stateless.apps.demo-lab.notesfromchechu.com/
+Accept-Language: en-US,en;q=0.5
+Host: guestbook-stateless.apps.demo-lab.notesfromchechu.com
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:75.0) Gecko/20100101 Firefox/75.0
+Accept: application/json, text/plain, */*
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;message&quot;: &quot;Updated&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">5882f9e46adb84cf7ab6b3c69fdd838b=0c2a76fc8a1b99496f301292383f01a4</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://guestbook-stateless.apps.demo-lab.notesfromchechu.com/guestbook.php?cmd=set&amp;key=messages&amp;value=%2Cjh%2Cdeqw%2Cqweq%2Casdsaasd</java.net.URL>
+</httpSample>
+<httpSample t="761" it="0" lt="761" ct="130" ts="1588018008873" s="true" lb="/guestbook.php-47" rc="200" rm="OK" tn="" dt="text" de="" by="218" sc="1" ec="0" ng="0" na="0" hn="Chechus-MacBook-Pro-2.local">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Mon, 27 Apr 2020 20:06:49 GMT
+Server: Apache/2.4.10 (Debian) PHP/5.6.20
+X-Powered-By: PHP/5.6.20
+Content-Length: 22
+Connection: close
+Content-Type: application/json
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: http://guestbook-stateless.apps.demo-lab.notesfromchechu.com/
+Accept-Language: en-US,en;q=0.5
+Host: guestbook-stateless.apps.demo-lab.notesfromchechu.com
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:75.0) Gecko/20100101 Firefox/75.0
+Accept: application/json, text/plain, */*
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;message&quot;: &quot;Updated&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">5882f9e46adb84cf7ab6b3c69fdd838b=0c2a76fc8a1b99496f301292383f01a4</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://guestbook-stateless.apps.demo-lab.notesfromchechu.com/guestbook.php?cmd=set&amp;key=messages&amp;value=%2Cjh%2Cdeqw%2Cqweq%2Casdsaasd%2Casd</java.net.URL>
+</httpSample>
+
+<httpSample t="468" it="0" lt="467" ct="158" ts="1588018077660" s="true" lb="/-48" rc="200" rm="OK" tn="" dt="text" de="" by="789" sc="1" ec="0" ng="0" na="0" hn="Chechus-MacBook-Pro-2.local">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Mon, 27 Apr 2020 20:07:58 GMT
+Server: Apache/2.4.10 (Debian) PHP/5.6.20
+Last-Modified: Wed, 09 Sep 2015 18:35:04 GMT
+ETag: &quot;399-51f54bdb4a600-gzip&quot;
+Accept-Ranges: bytes
+Vary: Accept-Encoding
+Connection: close
+Content-Type: text/html
+Content-Length: 478
+Content-Encoding: gzip
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+If-Modified-Since: Wed, 09 Sep 2015 18:35:04 GMT
+If-None-Match: &quot;399-51f54bdb4a600-gzip&quot;
+Accept-Language: en-US,en;q=0.5
+Host: guestbook-stateless.apps.demo-lab.notesfromchechu.com
+Upgrade-Insecure-Requests: 1
+Cache-Control: max-age=0
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:75.0) Gecko/20100101 Firefox/75.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+</requestHeader>
+  <responseData class="java.lang.String">&lt;html ng-app=&quot;redis&quot;&gt;
+  &lt;head&gt;
+    &lt;title&gt;Guestbook&lt;/title&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css&quot;&gt;
+    &lt;script src=&quot;https://ajax.googleapis.com/ajax/libs/angularjs/1.2.12/angular.min.js&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;controllers.js&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.13.0/ui-bootstrap-tpls.js&quot;&gt;&lt;/script&gt;
+  &lt;/head&gt;
+  &lt;body ng-controller=&quot;RedisCtrl&quot;&gt;
+    &lt;div style=&quot;width: 50%; margin-left: 20px&quot;&gt;
+      &lt;h2&gt;Guestbook&lt;/h2&gt;
+    &lt;form&gt;
+    &lt;fieldset&gt;
+    &lt;input ng-model=&quot;msg&quot; placeholder=&quot;Messages&quot; class=&quot;form-control&quot; type=&quot;text&quot; name=&quot;input&quot;&gt;&lt;br&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-primary&quot; ng-click=&quot;controller.onRedis()&quot;&gt;Submit&lt;/button&gt;
+    &lt;/fieldset&gt;
+    &lt;/form&gt;
+    &lt;div&gt;
+      &lt;div ng-repeat=&quot;msg in messages track by $index&quot;&gt;
+        {{msg}}
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">5882f9e46adb84cf7ab6b3c69fdd838b=0c2a76fc8a1b99496f301292383f01a4</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://guestbook-stateless.apps.demo-lab.notesfromchechu.com/</java.net.URL>
+</httpSample>
+<httpSample t="5476" it="0" lt="5476" ct="186" ts="1588018078828" s="true" lb="/guestbook.php-53" rc="200" rm="OK" tn="" dt="text" de="" by="234" sc="1" ec="0" ng="0" na="0" hn="Chechus-MacBook-Pro-2.local">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Mon, 27 Apr 2020 20:07:59 GMT
+Server: Apache/2.4.10 (Debian) PHP/5.6.20
+X-Powered-By: PHP/5.6.20
+Content-Length: 38
+Connection: close
+Content-Type: application/json
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: http://guestbook-stateless.apps.demo-lab.notesfromchechu.com/
+Accept-Language: en-US,en;q=0.5
+Host: guestbook-stateless.apps.demo-lab.notesfromchechu.com
+Cache-Control: max-age=0
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:75.0) Gecko/20100101 Firefox/75.0
+Accept: application/json, text/plain, */*
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;data&quot;: &quot;,jh,deqw,qweq,asdsaasd,asd&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">5882f9e46adb84cf7ab6b3c69fdd838b=0c2a76fc8a1b99496f301292383f01a4</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://guestbook-stateless.apps.demo-lab.notesfromchechu.com/guestbook.php?cmd=get&amp;key=messages</java.net.URL>
+</httpSample>
+<httpSample t="470" it="0" lt="470" ct="128" ts="1588018085205" s="true" lb="/guestbook.php-54" rc="200" rm="OK" tn="" dt="text" de="" by="218" sc="1" ec="0" ng="0" na="0" hn="Chechus-MacBook-Pro-2.local">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Mon, 27 Apr 2020 20:08:05 GMT
+Server: Apache/2.4.10 (Debian) PHP/5.6.20
+X-Powered-By: PHP/5.6.20
+Content-Length: 22
+Connection: close
+Content-Type: application/json
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: http://guestbook-stateless.apps.demo-lab.notesfromchechu.com/
+Accept-Language: en-US,en;q=0.5
+Host: guestbook-stateless.apps.demo-lab.notesfromchechu.com
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:75.0) Gecko/20100101 Firefox/75.0
+Accept: application/json, text/plain, */*
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;message&quot;: &quot;Updated&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">5882f9e46adb84cf7ab6b3c69fdd838b=0c2a76fc8a1b99496f301292383f01a4</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://guestbook-stateless.apps.demo-lab.notesfromchechu.com/guestbook.php?cmd=set&amp;key=messages&amp;value=%2Cjh%2Cdeqw%2Cqweq%2Casdsaasd%2Casd%2Casasas</java.net.URL>
+</httpSample>
+<httpSample t="613" it="0" lt="613" ct="259" ts="1588018087059" s="true" lb="/guestbook.php-55" rc="200" rm="OK" tn="" dt="text" de="" by="218" sc="1" ec="0" ng="0" na="0" hn="Chechus-MacBook-Pro-2.local">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Mon, 27 Apr 2020 20:08:07 GMT
+Server: Apache/2.4.10 (Debian) PHP/5.6.20
+X-Powered-By: PHP/5.6.20
+Content-Length: 22
+Connection: close
+Content-Type: application/json
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: http://guestbook-stateless.apps.demo-lab.notesfromchechu.com/
+Accept-Language: en-US,en;q=0.5
+Host: guestbook-stateless.apps.demo-lab.notesfromchechu.com
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:75.0) Gecko/20100101 Firefox/75.0
+Accept: application/json, text/plain, */*
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;message&quot;: &quot;Updated&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">5882f9e46adb84cf7ab6b3c69fdd838b=0c2a76fc8a1b99496f301292383f01a4</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://guestbook-stateless.apps.demo-lab.notesfromchechu.com/guestbook.php?cmd=set&amp;key=messages&amp;value=%2Cjh%2Cdeqw%2Cqweq%2Casdsaasd%2Casd%2Casasas%2Cas</java.net.URL>
+</httpSample>
+<httpSample t="477" it="0" lt="477" ct="151" ts="1588018088598" s="true" lb="/guestbook.php-56" rc="200" rm="OK" tn="" dt="text" de="" by="218" sc="1" ec="0" ng="0" na="0" hn="Chechus-MacBook-Pro-2.local">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Mon, 27 Apr 2020 20:08:08 GMT
+Server: Apache/2.4.10 (Debian) PHP/5.6.20
+X-Powered-By: PHP/5.6.20
+Content-Length: 22
+Connection: close
+Content-Type: application/json
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: http://guestbook-stateless.apps.demo-lab.notesfromchechu.com/
+Accept-Language: en-US,en;q=0.5
+Host: guestbook-stateless.apps.demo-lab.notesfromchechu.com
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:75.0) Gecko/20100101 Firefox/75.0
+Accept: application/json, text/plain, */*
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;message&quot;: &quot;Updated&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">5882f9e46adb84cf7ab6b3c69fdd838b=0c2a76fc8a1b99496f301292383f01a4</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://guestbook-stateless.apps.demo-lab.notesfromchechu.com/guestbook.php?cmd=set&amp;key=messages&amp;value=%2Cjh%2Cdeqw%2Cqweq%2Casdsaasd%2Casd%2Casasas%2Cas%2Cas</java.net.URL>
+</httpSample>
+
+<httpSample t="560" it="0" lt="560" ct="263" ts="1588018958369" s="true" lb="/-57" rc="200" rm="OK" tn="" dt="text" de="" by="910" sc="1" ec="0" ng="0" na="0" hn="Chechus-MacBook-Pro-2.local">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Mon, 27 Apr 2020 20:22:38 GMT
+Server: Apache/2.4.10 (Debian) PHP/5.6.20
+Last-Modified: Wed, 09 Sep 2015 18:35:04 GMT
+ETag: &quot;399-51f54bdb4a600-gzip&quot;
+Accept-Ranges: bytes
+Vary: Accept-Encoding
+Connection: close
+Content-Type: text/html
+Set-Cookie: 5882f9e46adb84cf7ab6b3c69fdd838b=cfd13f90bd61e8962d89ddef4eace1b8; path=/; HttpOnly
+Cache-control: private
+Content-Length: 478
+Content-Encoding: gzip
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+If-Modified-Since: Wed, 09 Sep 2015 18:35:04 GMT
+If-None-Match: &quot;399-51f54bdb4a600-gzip&quot;
+Accept-Language: en-US,en;q=0.5
+Host: guestbook-stateless.apps.demo-lab.notesfromchechu.com
+Upgrade-Insecure-Requests: 1
+Cache-Control: max-age=0
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:75.0) Gecko/20100101 Firefox/75.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+</requestHeader>
+  <responseData class="java.lang.String">&lt;html ng-app=&quot;redis&quot;&gt;
+  &lt;head&gt;
+    &lt;title&gt;Guestbook&lt;/title&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css&quot;&gt;
+    &lt;script src=&quot;https://ajax.googleapis.com/ajax/libs/angularjs/1.2.12/angular.min.js&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;controllers.js&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.13.0/ui-bootstrap-tpls.js&quot;&gt;&lt;/script&gt;
+  &lt;/head&gt;
+  &lt;body ng-controller=&quot;RedisCtrl&quot;&gt;
+    &lt;div style=&quot;width: 50%; margin-left: 20px&quot;&gt;
+      &lt;h2&gt;Guestbook&lt;/h2&gt;
+    &lt;form&gt;
+    &lt;fieldset&gt;
+    &lt;input ng-model=&quot;msg&quot; placeholder=&quot;Messages&quot; class=&quot;form-control&quot; type=&quot;text&quot; name=&quot;input&quot;&gt;&lt;br&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-primary&quot; ng-click=&quot;controller.onRedis()&quot;&gt;Submit&lt;/button&gt;
+    &lt;/fieldset&gt;
+    &lt;/form&gt;
+    &lt;div&gt;
+      &lt;div ng-repeat=&quot;msg in messages track by $index&quot;&gt;
+        {{msg}}
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">5882f9e46adb84cf7ab6b3c69fdd838b=0c2a76fc8a1b99496f301292383f01a4</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://guestbook-stateless.apps.demo-lab.notesfromchechu.com/</java.net.URL>
+</httpSample>
+<httpSample t="5404" it="0" lt="5403" ct="128" ts="1588018960193" s="true" lb="/guestbook.php-62" rc="200" rm="OK" tn="" dt="text" de="" by="241" sc="1" ec="0" ng="0" na="0" hn="Chechus-MacBook-Pro-2.local">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Mon, 27 Apr 2020 20:22:40 GMT
+Server: Apache/2.4.10 (Debian) PHP/5.6.20
+X-Powered-By: PHP/5.6.20
+Content-Length: 45
+Connection: close
+Content-Type: application/json
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: http://guestbook-stateless.apps.demo-lab.notesfromchechu.com/
+Accept-Language: en-US,en;q=0.5
+Host: guestbook-stateless.apps.demo-lab.notesfromchechu.com
+Cache-Control: max-age=0
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:75.0) Gecko/20100101 Firefox/75.0
+Accept: application/json, text/plain, */*
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;data&quot;: &quot;,jh,deqw,qweq,asdsaasd,asd,asasas&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">5882f9e46adb84cf7ab6b3c69fdd838b=cfd13f90bd61e8962d89ddef4eace1b8</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://guestbook-stateless.apps.demo-lab.notesfromchechu.com/guestbook.php?cmd=get&amp;key=messages</java.net.URL>
+</httpSample>
+
+<httpSample t="643" it="0" lt="643" ct="389" ts="1588020365202" s="true" lb="/-63" rc="200" rm="OK" tn="" dt="text" de="" by="789" sc="1" ec="0" ng="0" na="0" hn="Chechus-MacBook-Pro-2.local">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Mon, 27 Apr 2020 20:46:05 GMT
+Server: Apache/2.4.10 (Debian) PHP/5.6.20
+Last-Modified: Wed, 09 Sep 2015 18:35:04 GMT
+ETag: &quot;399-51f54bdb4a600-gzip&quot;
+Accept-Ranges: bytes
+Vary: Accept-Encoding
+Connection: close
+Content-Type: text/html
+Content-Length: 478
+Content-Encoding: gzip
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+If-Modified-Since: Wed, 09 Sep 2015 18:35:04 GMT
+If-None-Match: &quot;399-51f54bdb4a600-gzip&quot;
+Accept-Language: en-US,en;q=0.5
+Host: guestbook-stateless.apps.demo-lab.notesfromchechu.com
+Upgrade-Insecure-Requests: 1
+Cache-Control: max-age=0
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:75.0) Gecko/20100101 Firefox/75.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+</requestHeader>
+  <responseData class="java.lang.String">&lt;html ng-app=&quot;redis&quot;&gt;
+  &lt;head&gt;
+    &lt;title&gt;Guestbook&lt;/title&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css&quot;&gt;
+    &lt;script src=&quot;https://ajax.googleapis.com/ajax/libs/angularjs/1.2.12/angular.min.js&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;controllers.js&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.13.0/ui-bootstrap-tpls.js&quot;&gt;&lt;/script&gt;
+  &lt;/head&gt;
+  &lt;body ng-controller=&quot;RedisCtrl&quot;&gt;
+    &lt;div style=&quot;width: 50%; margin-left: 20px&quot;&gt;
+      &lt;h2&gt;Guestbook&lt;/h2&gt;
+    &lt;form&gt;
+    &lt;fieldset&gt;
+    &lt;input ng-model=&quot;msg&quot; placeholder=&quot;Messages&quot; class=&quot;form-control&quot; type=&quot;text&quot; name=&quot;input&quot;&gt;&lt;br&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-primary&quot; ng-click=&quot;controller.onRedis()&quot;&gt;Submit&lt;/button&gt;
+    &lt;/fieldset&gt;
+    &lt;/form&gt;
+    &lt;div&gt;
+      &lt;div ng-repeat=&quot;msg in messages track by $index&quot;&gt;
+        {{msg}}
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">5882f9e46adb84cf7ab6b3c69fdd838b=cfd13f90bd61e8962d89ddef4eace1b8</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://guestbook-stateless.apps.demo-lab.notesfromchechu.com/</java.net.URL>
+</httpSample>
+<httpSample t="440" it="0" lt="440" ct="130" ts="1588020367437" s="true" lb="/guestbook.php-68" rc="200" rm="OK" tn="" dt="text" de="" by="247" sc="1" ec="0" ng="0" na="0" hn="Chechus-MacBook-Pro-2.local">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Mon, 27 Apr 2020 20:46:07 GMT
+Server: Apache/2.4.10 (Debian) PHP/5.6.20
+X-Powered-By: PHP/5.6.20
+Content-Length: 51
+Connection: close
+Content-Type: application/json
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: http://guestbook-stateless.apps.demo-lab.notesfromchechu.com/
+Accept-Language: en-US,en;q=0.5
+Host: guestbook-stateless.apps.demo-lab.notesfromchechu.com
+Cache-Control: max-age=0
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:75.0) Gecko/20100101 Firefox/75.0
+Accept: application/json, text/plain, */*
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;data&quot;: &quot;,jh,deqw,qweq,asdsaasd,asd,asasas,as,as&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">5882f9e46adb84cf7ab6b3c69fdd838b=cfd13f90bd61e8962d89ddef4eace1b8</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://guestbook-stateless.apps.demo-lab.notesfromchechu.com/guestbook.php?cmd=get&amp;key=messages</java.net.URL>
+</httpSample>
+<httpSample t="853" it="0" lt="853" ct="129" ts="1588020370589" s="true" lb="/guestbook.php-69" rc="200" rm="OK" tn="" dt="text" de="" by="218" sc="1" ec="0" ng="0" na="0" hn="Chechus-MacBook-Pro-2.local">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Mon, 27 Apr 2020 20:46:10 GMT
+Server: Apache/2.4.10 (Debian) PHP/5.6.20
+X-Powered-By: PHP/5.6.20
+Content-Length: 22
+Connection: close
+Content-Type: application/json
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: http://guestbook-stateless.apps.demo-lab.notesfromchechu.com/
+Accept-Language: en-US,en;q=0.5
+Host: guestbook-stateless.apps.demo-lab.notesfromchechu.com
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:75.0) Gecko/20100101 Firefox/75.0
+Accept: application/json, text/plain, */*
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;message&quot;: &quot;Updated&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">5882f9e46adb84cf7ab6b3c69fdd838b=cfd13f90bd61e8962d89ddef4eace1b8</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://guestbook-stateless.apps.demo-lab.notesfromchechu.com/guestbook.php?cmd=set&amp;key=messages&amp;value=%2Cjh%2Cdeqw%2Cqweq%2Casdsaasd%2Casd%2Casasas%2Cas%2Cas%2Cqw</java.net.URL>
+</httpSample>
+
+<httpSample t="1433" it="0" lt="1432" ct="1064" ts="1588028031417" s="true" lb="/-1" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="3315" sc="1" ec="0" ng="0" na="0" hn="Chechus-MacBook-Pro-2.local">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Referrer-Policy: strict-origin-when-cross-origin
+Set-Cookie: csrf-token=blATV7GAZWipUOtMuVePRxW0ykLaemHzdT0oCiFldbXFeXJE2RIOqN/iItBrcswOMw8LtfJaXsObGgKdtrbfPg==; Path=/; Secure
+X-Content-Type-Options: nosniff
+X-Dns-Prefetch-Control: off
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 27 Apr 2020 22:53:52 GMT
+Content-Type: text/html; charset=utf-8
+Connection: close
+Transfer-Encoding: chunked
+Set-Cookie: 1e2670d92730b515ce3a1bb65da45062=9f47dda3d5cba9c61bd18047860e9f8b; path=/; HttpOnly; Secure
+Cache-control: private
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Accept-Language: en-US,en;q=0.5
+Host: console-openshift-console.apps.demo-lab.notesfromchechu.com
+Upgrade-Insecure-Requests: 1
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:75.0) Gecko/20100101 Firefox/75.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+</requestHeader>
+  <responseData class="java.lang.String">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot; class=&quot;no-js&quot;&gt;
+
+  &lt;head&gt;
+    &lt;base href=&quot;/&quot;&gt;
+    &lt;meta charset=&quot;utf-8&quot;&gt;
+    &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge,chrome=1&quot;&gt;
+    
+      
+      
+      
+      &lt;title&gt;Red Hat OpenShift Container Platform&lt;/title&gt;
+      &lt;meta name=&quot;application-name&quot; content=&quot;Red Hat OpenShift Container Platform&quot;&gt;
+      
+      
+      
+      
+
+      
+      &lt;link rel=&quot;shortcut icon&quot; href=&quot;static/assets/openshift-favicon.png&quot;&gt;
+      &lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;144x144&quot; href=&quot;static/assets/openshift-apple-touch-icon-precomposed.png&quot;&gt;
+      &lt;link rel=&quot;mask-icon&quot; href=&quot;static/assets/openshift-mask-icon.svg&quot; color=&quot;#DB242F&quot;&gt;
+      &lt;meta name=&quot;msapplication-TileColor&quot; content=&quot;#000000&quot;&gt;
+      &lt;meta name=&quot;msapplication-TileImage&quot; content=&quot;static/assets/openshift-mstile-144x144.png&quot;&gt;
+      
+    
+
+    &lt;meta name=&quot;description&quot; content=&quot;&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+    &lt;script type=&quot;text/javascript&quot;&gt;
+      window.SERVER_FLAGS = {&quot;consoleVersion&quot;:&quot;a7b51a55&quot;,&quot;authDisabled&quot;:false,&quot;kubectlClientID&quot;:&quot;&quot;,&quot;basePath&quot;:&quot;/&quot;,&quot;loginURL&quot;:&quot;https://console-openshift-console.apps.demo-lab.notesfromchechu.com/auth/login&quot;,&quot;loginSuccessURL&quot;:&quot;https://console-openshift-console.apps.demo-lab.notesfromchechu.com/&quot;,&quot;loginErrorURL&quot;:&quot;https://console-openshift-console.apps.demo-lab.notesfromchechu.com/error&quot;,&quot;logoutURL&quot;:&quot;https://console-openshift-console.apps.demo-lab.notesfromchechu.com/auth/logout&quot;,&quot;logoutRedirect&quot;:&quot;&quot;,&quot;requestTokenURL&quot;:&quot;https://oauth-openshift.apps.demo-lab.notesfromchechu.com/oauth/token/request&quot;,&quot;kubeAdminLogoutURL&quot;:&quot;https://oauth-openshift.apps.demo-lab.notesfromchechu.com/logout&quot;,&quot;kubeAPIServerURL&quot;:&quot;https://api.demo-lab.notesfromchechu.com:6443&quot;,&quot;prometheusBaseURL&quot;:&quot;/api/prometheus&quot;,&quot;prometheusTenancyBaseURL&quot;:&quot;/api/prometheus-tenancy&quot;,&quot;alertManagerBaseURL&quot;:&quot;/api/alertmanager&quot;,&quot;meteringBaseURL&quot;:&quot;/api/metering&quot;,&quot;branding&quot;:&quot;ocp&quot;,&quot;customProductName&quot;:&quot;&quot;,&quot;customLogoURL&quot;:&quot;&quot;,&quot;statuspageID&quot;:&quot;&quot;,&quot;documentationBaseURL&quot;:&quot;https://docs.openshift.com/container-platform/4.3/&quot;,&quot;loadTestFactor&quot;:0};
+    &lt;/script&gt;
+  &lt;link href=&quot;static/127.app-bundle.9e13459c1434904a586b.css&quot; rel=&quot;stylesheet&quot;&gt;&lt;link href=&quot;static/183.app-bundle.1818fa2e3b61bce24e6c.css&quot; rel=&quot;stylesheet&quot;&gt;&lt;/head&gt;
+
+  &lt;body class=&quot;pf-m-redhat-font&quot;&gt;
+    &lt;noscript&gt;JavaScript must be enabled.&lt;/noscript&gt;
+    &lt;div id=&quot;modal-container&quot;&gt;&lt;/div&gt;
+    &lt;div id=&quot;app&quot;&gt;&lt;/div&gt;
+  &lt;script type=&quot;text/javascript&quot; src=&quot;static/main-chunk-7cf55c70a0cf82419afb.min.js&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text/javascript&quot; src=&quot;static/runtime~main-bundle-f0306d59d5e827389b8d.min.js&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text/javascript&quot; src=&quot;static/vendors~main-chunk-40fda64599f8ff76fdc8.min.js&quot;&gt;&lt;/script&gt;&lt;/body&gt;
+&lt;/html&gt;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://console-openshift-console.apps.demo-lab.notesfromchechu.com/</java.net.URL>
+</httpSample>
+<httpSample t="977" it="0" lt="977" ct="837" ts="1588028033147" s="true" lb="/v1/buckets/monitor/collections/changes/records-7" rc="200" rm="OK" tn="" dt="text" de="" by="798" sc="1" ec="0" ng="0" na="0" hn="Chechus-MacBook-Pro-2.local">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 11
+Connection: close
+Access-Control-Expose-Headers: Expires, Pragma, Next-Page, Last-Modified, Cache-Control, ETag, Content-Type, Retry-After, Backoff, Content-Length, Alert
+Cache-Control: max-age=60
+Content-Security-Policy: default-src &apos;none&apos;; frame-ancestors &apos;none&apos;; base-uri &apos;none&apos;;
+Date: Mon, 27 Apr 2020 22:53:19 GMT
+ETag: &quot;1588017004720&quot;
+Expires: Mon, 27 Apr 2020 22:54:19 GMT
+Last-Modified: Mon, 27 Apr 2020 19:50:04 GMT
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Cache: Hit from cloudfront
+Via: 1.1 bea09c5d6492f9e5e896e19cc20a7d16.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: DFW50-C1
+X-Amz-Cf-Id: eCvzvbyCw3mogZEg5Yfb4EqpE6_7wDeUDouSUMhF7nPoWlObTh2GEg==
+Age: 35
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+If-Modified-Since: Mon, 27 Apr 2020 14:12:47 GMT
+If-None-Match: &quot;1587996767200&quot;
+Accept-Language: en-US,en;q=0.5
+Host: firefox.settings.services.mozilla.com
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:75.0) Gecko/20100101 Firefox/75.0
+Accept: */*
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;data&quot;:[]}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://firefox.settings.services.mozilla.com/v1/buckets/monitor/collections/changes/records?collection=message-groups&amp;bucket=main</java.net.URL>
+</httpSample>
+<httpSample t="558" it="0" lt="0" ct="425" ts="1588028034159" s="true" lb="/v1/buckets/main/collections/ms-language-packs/records/cfr-v1-en-US-8" rc="304" rm="Not Modified" tn="" dt="" de="" by="621" sc="1" ec="0" ng="0" na="0" hn="Chechus-MacBook-Pro-2.local">
+  <responseHeader class="java.lang.String">HTTP/1.1 304 Not Modified
+Connection: close
+Date: Mon, 27 Apr 2020 22:53:54 GMT
+Access-Control-Expose-Headers: Retry-After, Content-Type, Last-Modified, Pragma, Backoff, Expires, Content-Length, Cache-Control, Alert, ETag
+Content-Security-Policy: default-src &apos;none&apos;; frame-ancestors &apos;none&apos;; base-uri &apos;none&apos;;
+ETag: &quot;1587411254172&quot;
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Cache: Hit from cloudfront
+Via: 1.1 125207e6ab84815ebe7dac5799ad56c3.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: DFW50-C1
+X-Amz-Cf-Id: -5M7Kj95KzWrsrMPrY4DCQKrOn8T4y9vwasvlPZomMg-8H79EUxu5Q==
+Age: 84
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+If-Modified-Since: Mon, 20 Apr 2020 19:34:14 GMT
+If-None-Match: &quot;1587411254172&quot;
+Accept-Language: en-US,en;q=0.5
+Host: firefox.settings.services.mozilla.com
+Content-Type: application/json
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:75.0) Gecko/20100101 Firefox/75.0
+Accept: application/json
+</requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://firefox.settings.services.mozilla.com/v1/buckets/main/collections/ms-language-packs/records/cfr-v1-en-US</java.net.URL>
+</httpSample>
+
+<httpSample t="693" it="0" lt="692" ct="393" ts="1588028054197" s="true" lb="/-11" rc="200" rm="OK" tn="" dt="text" de="" by="789" sc="1" ec="0" ng="0" na="0" hn="Chechus-MacBook-Pro-2.local">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Mon, 27 Apr 2020 22:54:14 GMT
+Server: Apache/2.4.10 (Debian) PHP/5.6.20
+Last-Modified: Wed, 09 Sep 2015 18:35:04 GMT
+ETag: &quot;399-51f54bdb4a600-gzip&quot;
+Accept-Ranges: bytes
+Vary: Accept-Encoding
+Connection: close
+Content-Type: text/html
+Content-Length: 478
+Content-Encoding: gzip
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+If-Modified-Since: Wed, 09 Sep 2015 18:35:04 GMT
+If-None-Match: &quot;399-51f54bdb4a600-gzip&quot;
+Accept-Language: en-US,en;q=0.5
+Host: guestbook-stateless.apps.demo-lab.notesfromchechu.com
+Upgrade-Insecure-Requests: 1
+Cache-Control: max-age=0
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:75.0) Gecko/20100101 Firefox/75.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+</requestHeader>
+  <responseData class="java.lang.String">&lt;html ng-app=&quot;redis&quot;&gt;
+  &lt;head&gt;
+    &lt;title&gt;Guestbook&lt;/title&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css&quot;&gt;
+    &lt;script src=&quot;https://ajax.googleapis.com/ajax/libs/angularjs/1.2.12/angular.min.js&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;controllers.js&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.13.0/ui-bootstrap-tpls.js&quot;&gt;&lt;/script&gt;
+  &lt;/head&gt;
+  &lt;body ng-controller=&quot;RedisCtrl&quot;&gt;
+    &lt;div style=&quot;width: 50%; margin-left: 20px&quot;&gt;
+      &lt;h2&gt;Guestbook&lt;/h2&gt;
+    &lt;form&gt;
+    &lt;fieldset&gt;
+    &lt;input ng-model=&quot;msg&quot; placeholder=&quot;Messages&quot; class=&quot;form-control&quot; type=&quot;text&quot; name=&quot;input&quot;&gt;&lt;br&gt;
+    &lt;button type=&quot;button&quot; class=&quot;btn btn-primary&quot; ng-click=&quot;controller.onRedis()&quot;&gt;Submit&lt;/button&gt;
+    &lt;/fieldset&gt;
+    &lt;/form&gt;
+    &lt;div&gt;
+      &lt;div ng-repeat=&quot;msg in messages track by $index&quot;&gt;
+        {{msg}}
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">5882f9e46adb84cf7ab6b3c69fdd838b=cfd13f90bd61e8962d89ddef4eace1b8</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://guestbook-stateless.apps.demo-lab.notesfromchechu.com/</java.net.URL>
+</httpSample>
+<httpSample t="509" it="0" lt="509" ct="129" ts="1588028056091" s="true" lb="/guestbook.php-16" rc="200" rm="OK" tn="" dt="text" de="" by="250" sc="1" ec="0" ng="0" na="0" hn="Chechus-MacBook-Pro-2.local">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Mon, 27 Apr 2020 22:54:16 GMT
+Server: Apache/2.4.10 (Debian) PHP/5.6.20
+X-Powered-By: PHP/5.6.20
+Content-Length: 54
+Connection: close
+Content-Type: application/json
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: http://guestbook-stateless.apps.demo-lab.notesfromchechu.com/
+Accept-Language: en-US,en;q=0.5
+Host: guestbook-stateless.apps.demo-lab.notesfromchechu.com
+Cache-Control: max-age=0
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:75.0) Gecko/20100101 Firefox/75.0
+Accept: application/json, text/plain, */*
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;data&quot;: &quot;,jh,deqw,qweq,asdsaasd,asd,asasas,as,as,qw&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">5882f9e46adb84cf7ab6b3c69fdd838b=cfd13f90bd61e8962d89ddef4eace1b8</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://guestbook-stateless.apps.demo-lab.notesfromchechu.com/guestbook.php?cmd=get&amp;key=messages</java.net.URL>
+</httpSample>
+<httpSample t="1221" it="0" lt="1221" ct="811" ts="1588028057551" s="false" lb="/api/kubernetes/apis/apps.openshift.io/v1-17" rc="401" rm="Unauthorized" tn="" dt="" de="" by="272" sc="1" ec="1" ng="0" na="0" hn="Chechus-MacBook-Pro-2.local">
+  <responseHeader class="java.lang.String">HTTP/1.1 401 Unauthorized
+Referrer-Policy: strict-origin-when-cross-origin
+X-Content-Type-Options: nosniff
+X-Dns-Prefetch-Control: off
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 27 Apr 2020 22:54:18 GMT
+Content-Length: 0
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: https://console-openshift-console.apps.demo-lab.notesfromchechu.com/
+Accept-Language: en-US,en;q=0.5
+Host: console-openshift-console.apps.demo-lab.notesfromchechu.com
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:75.0) Gecko/20100101 Firefox/75.0
+Accept: application/json
+</requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">csrf-token=blATV7GAZWipUOtMuVePRxW0ykLaemHzdT0oCiFldbXFeXJE2RIOqN/iItBrcswOMw8LtfJaXsObGgKdtrbfPg==; 1e2670d92730b515ce3a1bb65da45062=9f47dda3d5cba9c61bd18047860e9f8b</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://console-openshift-console.apps.demo-lab.notesfromchechu.com/api/kubernetes/apis/apps.openshift.io/v1</java.net.URL>
+</httpSample>
+<httpSample t="422" it="0" lt="421" ct="215" ts="1588028058763" s="true" lb="/guestbook.php-22" rc="200" rm="OK" tn="" dt="text" de="" by="218" sc="1" ec="0" ng="0" na="0" hn="Chechus-MacBook-Pro-2.local">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Mon, 27 Apr 2020 22:54:19 GMT
+Server: Apache/2.4.10 (Debian) PHP/5.6.20
+X-Powered-By: PHP/5.6.20
+Content-Length: 22
+Connection: close
+Content-Type: application/json
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: http://guestbook-stateless.apps.demo-lab.notesfromchechu.com/
+Accept-Language: en-US,en;q=0.5
+Host: guestbook-stateless.apps.demo-lab.notesfromchechu.com
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:75.0) Gecko/20100101 Firefox/75.0
+Accept: application/json, text/plain, */*
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;message&quot;: &quot;Updated&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">5882f9e46adb84cf7ab6b3c69fdd838b=cfd13f90bd61e8962d89ddef4eace1b8</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://guestbook-stateless.apps.demo-lab.notesfromchechu.com/guestbook.php?cmd=set&amp;key=messages&amp;value=%2Cjh%2Cdeqw%2Cqweq%2Casdsaasd%2Casd%2Casasas%2Cas%2Cas%2Cqw%2C23</java.net.URL>
+</httpSample>
+<httpSample t="1083" it="0" lt="1083" ct="945" ts="1588028058552" s="false" lb="/api/kubernetes/api/v1/namespaces/openshift-monitoring/configmaps/sharing-config-20" rc="401" rm="Unauthorized" tn="" dt="" de="" by="272" sc="1" ec="1" ng="0" na="0" hn="Chechus-MacBook-Pro-2.local">
+  <responseHeader class="java.lang.String">HTTP/1.1 401 Unauthorized
+Referrer-Policy: strict-origin-when-cross-origin
+X-Content-Type-Options: nosniff
+X-Dns-Prefetch-Control: off
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 27 Apr 2020 22:54:19 GMT
+Content-Length: 0
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: https://console-openshift-console.apps.demo-lab.notesfromchechu.com/
+Accept-Language: en-US,en;q=0.5
+Host: console-openshift-console.apps.demo-lab.notesfromchechu.com
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:75.0) Gecko/20100101 Firefox/75.0
+Accept: application/json
+</requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">csrf-token=blATV7GAZWipUOtMuVePRxW0ykLaemHzdT0oCiFldbXFeXJE2RIOqN/iItBrcswOMw8LtfJaXsObGgKdtrbfPg==; 1e2670d92730b515ce3a1bb65da45062=9f47dda3d5cba9c61bd18047860e9f8b</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://console-openshift-console.apps.demo-lab.notesfromchechu.com/api/kubernetes/api/v1/namespaces/openshift-monitoring/configmaps/sharing-config</java.net.URL>
+</httpSample>
+<httpSample t="1140" it="0" lt="1140" ct="1006" ts="1588028058548" s="false" lb="/api/kubernetes/apis/project.openshift.io/v1/projectrequests-19" rc="401" rm="Unauthorized" tn="" dt="" de="" by="272" sc="1" ec="1" ng="0" na="0" hn="Chechus-MacBook-Pro-2.local">
+  <responseHeader class="java.lang.String">HTTP/1.1 401 Unauthorized
+Referrer-Policy: strict-origin-when-cross-origin
+X-Content-Type-Options: nosniff
+X-Dns-Prefetch-Control: off
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 27 Apr 2020 22:54:19 GMT
+Content-Length: 0
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: https://console-openshift-console.apps.demo-lab.notesfromchechu.com/
+Accept-Language: en-US,en;q=0.5
+Host: console-openshift-console.apps.demo-lab.notesfromchechu.com
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:75.0) Gecko/20100101 Firefox/75.0
+Accept: application/json
+</requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">csrf-token=blATV7GAZWipUOtMuVePRxW0ykLaemHzdT0oCiFldbXFeXJE2RIOqN/iItBrcswOMw8LtfJaXsObGgKdtrbfPg==; 1e2670d92730b515ce3a1bb65da45062=9f47dda3d5cba9c61bd18047860e9f8b</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://console-openshift-console.apps.demo-lab.notesfromchechu.com/api/kubernetes/apis/project.openshift.io/v1/projectrequests</java.net.URL>
+</httpSample>
+<httpSample t="1128" it="0" lt="1128" ct="994" ts="1588028058560" s="false" lb="/api/kubernetes/apis/apps.openshift.io/v1-21" rc="401" rm="Unauthorized" tn="" dt="" de="" by="272" sc="1" ec="1" ng="0" na="0" hn="Chechus-MacBook-Pro-2.local">
+  <responseHeader class="java.lang.String">HTTP/1.1 401 Unauthorized
+Referrer-Policy: strict-origin-when-cross-origin
+X-Content-Type-Options: nosniff
+X-Dns-Prefetch-Control: off
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 27 Apr 2020 22:54:19 GMT
+Content-Length: 0
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: https://console-openshift-console.apps.demo-lab.notesfromchechu.com/
+Accept-Language: en-US,en;q=0.5
+Host: console-openshift-console.apps.demo-lab.notesfromchechu.com
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:75.0) Gecko/20100101 Firefox/75.0
+Accept: application/json
+</requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">csrf-token=blATV7GAZWipUOtMuVePRxW0ykLaemHzdT0oCiFldbXFeXJE2RIOqN/iItBrcswOMw8LtfJaXsObGgKdtrbfPg==; 1e2670d92730b515ce3a1bb65da45062=9f47dda3d5cba9c61bd18047860e9f8b</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://console-openshift-console.apps.demo-lab.notesfromchechu.com/api/kubernetes/apis/apps.openshift.io/v1</java.net.URL>
+</httpSample>
+<httpSample t="1218" it="0" lt="1218" ct="1016" ts="1588028058538" s="false" lb="/api/kubernetes/apis/config.openshift.io/v1/infrastructures/cluster-18" rc="401" rm="Unauthorized" tn="" dt="" de="" by="272" sc="1" ec="1" ng="0" na="0" hn="Chechus-MacBook-Pro-2.local">
+  <responseHeader class="java.lang.String">HTTP/1.1 401 Unauthorized
+Referrer-Policy: strict-origin-when-cross-origin
+X-Content-Type-Options: nosniff
+X-Dns-Prefetch-Control: off
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 27 Apr 2020 22:54:19 GMT
+Content-Length: 0
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: https://console-openshift-console.apps.demo-lab.notesfromchechu.com/
+Accept-Language: en-US,en;q=0.5
+Host: console-openshift-console.apps.demo-lab.notesfromchechu.com
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:75.0) Gecko/20100101 Firefox/75.0
+Accept: application/json
+</requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">csrf-token=blATV7GAZWipUOtMuVePRxW0ykLaemHzdT0oCiFldbXFeXJE2RIOqN/iItBrcswOMw8LtfJaXsObGgKdtrbfPg==; 1e2670d92730b515ce3a1bb65da45062=9f47dda3d5cba9c61bd18047860e9f8b</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://console-openshift-console.apps.demo-lab.notesfromchechu.com/api/kubernetes/apis/config.openshift.io/v1/infrastructures/cluster</java.net.URL>
+</httpSample>
+<httpSample t="1035" it="0" lt="0" ct="889" ts="1588028058794" s="true" lb="/auth/logout-23" rc="204" rm="No Content" tn="" dt="" de="" by="319" sc="1" ec="0" ng="0" na="0" hn="Chechus-MacBook-Pro-2.local">
+  <responseHeader class="java.lang.String">HTTP/1.1 204 No Content
+Referrer-Policy: strict-origin-when-cross-origin
+Set-Cookie: openshift-session-token=; Path=/api/; HttpOnly; Secure
+X-Content-Type-Options: nosniff
+X-Dns-Prefetch-Control: off
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 27 Apr 2020 22:54:19 GMT
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: https://console-openshift-console.apps.demo-lab.notesfromchechu.com/
+Accept-Language: en-US,en;q=0.5
+Origin: https://console-openshift-console.apps.demo-lab.notesfromchechu.com
+Host: console-openshift-console.apps.demo-lab.notesfromchechu.com
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:75.0) Gecko/20100101 Firefox/75.0
+Accept: */*
+Content-Length: 0
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+</requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">csrf-token=blATV7GAZWipUOtMuVePRxW0ykLaemHzdT0oCiFldbXFeXJE2RIOqN/iItBrcswOMw8LtfJaXsObGgKdtrbfPg==; 1e2670d92730b515ce3a1bb65da45062=9f47dda3d5cba9c61bd18047860e9f8b</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://console-openshift-console.apps.demo-lab.notesfromchechu.com/auth/logout</java.net.URL>
+</httpSample>
+<httpSample t="554" it="0" lt="554" ct="418" ts="1588028059543" s="false" lb="/api/kubernetes/apis/user.openshift.io/v1/users/~-25" rc="401" rm="Unauthorized" tn="" dt="" de="" by="272" sc="1" ec="1" ng="0" na="0" hn="Chechus-MacBook-Pro-2.local">
+  <responseHeader class="java.lang.String">HTTP/1.1 401 Unauthorized
+Referrer-Policy: strict-origin-when-cross-origin
+X-Content-Type-Options: nosniff
+X-Dns-Prefetch-Control: off
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 27 Apr 2020 22:54:20 GMT
+Content-Length: 0
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: https://console-openshift-console.apps.demo-lab.notesfromchechu.com/
+Accept-Language: en-US,en;q=0.5
+Host: console-openshift-console.apps.demo-lab.notesfromchechu.com
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:75.0) Gecko/20100101 Firefox/75.0
+Accept: application/json
+</requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">csrf-token=blATV7GAZWipUOtMuVePRxW0ykLaemHzdT0oCiFldbXFeXJE2RIOqN/iItBrcswOMw8LtfJaXsObGgKdtrbfPg==; 1e2670d92730b515ce3a1bb65da45062=9f47dda3d5cba9c61bd18047860e9f8b</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://console-openshift-console.apps.demo-lab.notesfromchechu.com/api/kubernetes/apis/user.openshift.io/v1/users/~</java.net.URL>
+</httpSample>
+<httpSample t="641" it="0" lt="641" ct="507" ts="1588028059701" s="false" lb="/api/kubernetes/apis/console.openshift.io/v1/consolelinks-27" rc="401" rm="Unauthorized" tn="" dt="" de="" by="272" sc="1" ec="1" ng="0" na="0" hn="Chechus-MacBook-Pro-2.local">
+  <responseHeader class="java.lang.String">HTTP/1.1 401 Unauthorized
+Referrer-Policy: strict-origin-when-cross-origin
+X-Content-Type-Options: nosniff
+X-Dns-Prefetch-Control: off
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 27 Apr 2020 22:54:20 GMT
+Content-Length: 0
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: https://console-openshift-console.apps.demo-lab.notesfromchechu.com/
+Accept-Language: en-US,en;q=0.5
+Host: console-openshift-console.apps.demo-lab.notesfromchechu.com
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:75.0) Gecko/20100101 Firefox/75.0
+Accept: application/json
+</requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">csrf-token=blATV7GAZWipUOtMuVePRxW0ykLaemHzdT0oCiFldbXFeXJE2RIOqN/iItBrcswOMw8LtfJaXsObGgKdtrbfPg==; 1e2670d92730b515ce3a1bb65da45062=9f47dda3d5cba9c61bd18047860e9f8b</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://console-openshift-console.apps.demo-lab.notesfromchechu.com/api/kubernetes/apis/console.openshift.io/v1/consolelinks</java.net.URL>
+</httpSample>
+<httpSample t="631" it="0" lt="631" ct="497" ts="1588028059711" s="false" lb="/api/kubernetes/apis/authorization.k8s.io/v1/selfsubjectaccessreviews-28" rc="401" rm="Unauthorized" tn="" dt="" de="" by="272" sc="1" ec="1" ng="0" na="0" hn="Chechus-MacBook-Pro-2.local">
+  <responseHeader class="java.lang.String">HTTP/1.1 401 Unauthorized
+Referrer-Policy: strict-origin-when-cross-origin
+X-Content-Type-Options: nosniff
+X-Dns-Prefetch-Control: off
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 27 Apr 2020 22:54:20 GMT
+Content-Length: 0
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: https://console-openshift-console.apps.demo-lab.notesfromchechu.com/
+Accept-Language: en-US,en;q=0.5
+X-CSRFToken: blATV7GAZWipUOtMuVePRxW0ykLaemHzdT0oCiFldbXFeXJE2RIOqN/iItBrcswOMw8LtfJaXsObGgKdtrbfPg==
+Origin: https://console-openshift-console.apps.demo-lab.notesfromchechu.com
+Accept: application/json
+Host: console-openshift-console.apps.demo-lab.notesfromchechu.com
+Content-Type: application/json;charset=UTF-8
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:75.0) Gecko/20100101 Firefox/75.0
+Content-Length: 84
+</requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">csrf-token=blATV7GAZWipUOtMuVePRxW0ykLaemHzdT0oCiFldbXFeXJE2RIOqN/iItBrcswOMw8LtfJaXsObGgKdtrbfPg==; 1e2670d92730b515ce3a1bb65da45062=9f47dda3d5cba9c61bd18047860e9f8b</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&quot;spec&quot;:{&quot;resourceAttributes&quot;:{&quot;resource&quot;:&quot;namespaces&quot;,&quot;verb&quot;:&quot;get&quot;}},&quot;metadata&quot;:{}}</queryString>
+  <java.net.URL>https://console-openshift-console.apps.demo-lab.notesfromchechu.com/api/kubernetes/apis/authorization.k8s.io/v1/selfsubjectaccessreviews</java.net.URL>
+</httpSample>
+<httpSample t="694" it="0" lt="694" ct="545" ts="1588028059647" s="false" lb="/api/kubernetes/api/v1/namespaces/openshift-logging/configmaps/sharing-config-26" rc="401" rm="Unauthorized" tn="" dt="" de="" by="272" sc="1" ec="1" ng="0" na="0" hn="Chechus-MacBook-Pro-2.local">
+  <responseHeader class="java.lang.String">HTTP/1.1 401 Unauthorized
+Referrer-Policy: strict-origin-when-cross-origin
+X-Content-Type-Options: nosniff
+X-Dns-Prefetch-Control: off
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 27 Apr 2020 22:54:20 GMT
+Content-Length: 0
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: https://console-openshift-console.apps.demo-lab.notesfromchechu.com/
+Accept-Language: en-US,en;q=0.5
+Host: console-openshift-console.apps.demo-lab.notesfromchechu.com
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:75.0) Gecko/20100101 Firefox/75.0
+Accept: application/json
+</requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">csrf-token=blATV7GAZWipUOtMuVePRxW0ykLaemHzdT0oCiFldbXFeXJE2RIOqN/iItBrcswOMw8LtfJaXsObGgKdtrbfPg==; 1e2670d92730b515ce3a1bb65da45062=9f47dda3d5cba9c61bd18047860e9f8b</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://console-openshift-console.apps.demo-lab.notesfromchechu.com/api/kubernetes/api/v1/namespaces/openshift-logging/configmaps/sharing-config</java.net.URL>
+</httpSample>
+<httpSample t="635" it="0" lt="635" ct="447" ts="1588028059773" s="false" lb="/api/kubernetes/apis/authorization.k8s.io/v1/selfsubjectaccessreviews-29" rc="401" rm="Unauthorized" tn="" dt="" de="" by="272" sc="1" ec="1" ng="0" na="0" hn="Chechus-MacBook-Pro-2.local">
+  <responseHeader class="java.lang.String">HTTP/1.1 401 Unauthorized
+Referrer-Policy: strict-origin-when-cross-origin
+X-Content-Type-Options: nosniff
+X-Dns-Prefetch-Control: off
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 27 Apr 2020 22:54:20 GMT
+Content-Length: 0
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: https://console-openshift-console.apps.demo-lab.notesfromchechu.com/
+Accept-Language: en-US,en;q=0.5
+X-CSRFToken: blATV7GAZWipUOtMuVePRxW0ykLaemHzdT0oCiFldbXFeXJE2RIOqN/iItBrcswOMw8LtfJaXsObGgKdtrbfPg==
+Origin: https://console-openshift-console.apps.demo-lab.notesfromchechu.com
+Accept: application/json
+Host: console-openshift-console.apps.demo-lab.notesfromchechu.com
+Content-Type: application/json;charset=UTF-8
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:75.0) Gecko/20100101 Firefox/75.0
+Content-Length: 85
+</requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">csrf-token=blATV7GAZWipUOtMuVePRxW0ykLaemHzdT0oCiFldbXFeXJE2RIOqN/iItBrcswOMw8LtfJaXsObGgKdtrbfPg==; 1e2670d92730b515ce3a1bb65da45062=9f47dda3d5cba9c61bd18047860e9f8b</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&quot;spec&quot;:{&quot;resourceAttributes&quot;:{&quot;resource&quot;:&quot;namespaces&quot;,&quot;verb&quot;:&quot;list&quot;}},&quot;metadata&quot;:{}}</queryString>
+  <java.net.URL>https://console-openshift-console.apps.demo-lab.notesfromchechu.com/api/kubernetes/apis/authorization.k8s.io/v1/selfsubjectaccessreviews</java.net.URL>
+</httpSample>
+<httpSample t="1174" it="0" lt="1174" ct="656" ts="1588028059437" s="false" lb="/vsphere-client/telemetry-ui/messagebroker/amf-24" rc="200" rm="java.io.IOException: Input is binary and unsupported" tn="" dt="text" de="" by="330" sc="1" ec="1" ng="0" na="0" hn="Chechus-MacBook-Pro-2.local">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+Cache-Control: no-cache
+Expires: Sat, 25 Dec 1999 00:00:00 GMT
+Pragma: no-cache
+Content-Type: application/x-amf
+Content-Length: 101
+Date: Mon, 27 Apr 2020 22:54:20 GMT
+Connection: close
+Server: Anonymous
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: https://vcsa.vmware.chechu.com/vsphere-client/UI.swf/[[DYNAMIC]]/6
+Accept-Language: en-US,en;q=0.5
+Origin: https://vcsa.vmware.chechu.com
+Host: vcsa.vmware.chechu.com
+Content-type: application/x-amf
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:75.0) Gecko/20100101 Firefox/75.0
+Accept: */*
+Content-Length: 435
+</requestHeader>
+  <responseData class="java.lang.String">&#x0;&#x3;&#x0;&#x0;&#x0;&#x1;&#x0;&#xc;/25/onResult&#x0;&#x0;&#x0;&#x0;&#x0;&#x1;&#x11;
+&#x7;&#x7;DSK¡&#x3;&#x2;&#x5;Bw&#x1b;Ý&#x93;8 &#x0;&#xc;!¯~&#x1e;&#x8;&#x1d;	`*1M&#x8b;éÝx&#xc;¤&#xc;!°&#x7f;FÓê&#xf;Lç1ùé¾©_Äµ&#x2;&#xc;!_&#x8f;&#x1d;&#xe;×&#x88;5&#xe;&#x17;L½Ù#ÒÍ&#x0;&#x0;</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">JSESSIONID=5A23C25CF826B2FD4FB8B54A9BF1D2FD; JSESSIONID=DCE520BA7CE6BCB995EE822836B5701A; CastleSessionvsphere.local=_c32e7d19360f7f43777486abe4cacfc6; VSPHERE-USERNAME=Administrator%40VSPHERE.LOCAL; VSPHERE-CLIENT-SESSION-INDEX=_287746dedf570a1d30a0c2a949e7aee7</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">&lt;actual file content, not shown here&gt;</queryString>
+  <java.net.URL>https://vcsa.vmware.chechu.com/vsphere-client/telemetry-ui/messagebroker/amf</java.net.URL>
+</httpSample>
+<httpSample t="780" it="0" lt="779" ct="571" ts="1588028059968" s="true" lb="/auth/login-30" rc="303" rm="See Other" tn="" dt="text" de="utf-8" by="914" sc="1" ec="0" ng="0" na="0" hn="Chechus-MacBook-Pro-2.local">
+  <responseHeader class="java.lang.String">HTTP/1.1 303 See Other
+Content-Type: text/html; charset=utf-8
+Location: https://oauth-openshift.apps.demo-lab.notesfromchechu.com/oauth/authorize?client_id=console&amp;redirect_uri=https%3A%2F%2Fconsole-openshift-console.apps.demo-lab.notesfromchechu.com%2Fauth%2Fcallback&amp;response_type=code&amp;scope=user%3Afull&amp;state=299b1865
+Referrer-Policy: strict-origin-when-cross-origin
+Set-Cookie: state-token=299b1865; HttpOnly; Secure
+X-Content-Type-Options: nosniff
+X-Dns-Prefetch-Control: off
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 27 Apr 2020 22:54:20 GMT
+Content-Length: 291
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: https://console-openshift-console.apps.demo-lab.notesfromchechu.com/
+Accept-Language: en-US,en;q=0.5
+Host: console-openshift-console.apps.demo-lab.notesfromchechu.com
+Upgrade-Insecure-Requests: 1
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:75.0) Gecko/20100101 Firefox/75.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+</requestHeader>
+  <responseData class="java.lang.String">&lt;a href=&quot;https://oauth-openshift.apps.demo-lab.notesfromchechu.com/oauth/authorize?client_id=console&amp;amp;redirect_uri=https%3A%2F%2Fconsole-openshift-console.apps.demo-lab.notesfromchechu.com%2Fauth%2Fcallback&amp;amp;response_type=code&amp;amp;scope=user%3Afull&amp;amp;state=299b1865&quot;&gt;See Other&lt;/a&gt;.
+
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">csrf-token=blATV7GAZWipUOtMuVePRxW0ykLaemHzdT0oCiFldbXFeXJE2RIOqN/iItBrcswOMw8LtfJaXsObGgKdtrbfPg==; 1e2670d92730b515ce3a1bb65da45062=9f47dda3d5cba9c61bd18047860e9f8b</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <redirectLocation class="java.lang.String">https://oauth-openshift.apps.demo-lab.notesfromchechu.com/oauth/authorize?client_id=console&amp;redirect_uri=https%3A%2F%2Fconsole-openshift-console.apps.demo-lab.notesfromchechu.com%2Fauth%2Fcallback&amp;response_type=code&amp;scope=user%3Afull&amp;state=299b1865</redirectLocation>
+  <java.net.URL>https://console-openshift-console.apps.demo-lab.notesfromchechu.com/auth/login</java.net.URL>
+</httpSample>
+<httpSample t="612" it="0" lt="612" ct="434" ts="1588028060580" s="false" lb="/api/kubernetes/apis/authorization.k8s.io/v1/selfsubjectaccessreviews-32" rc="401" rm="Unauthorized" tn="" dt="" de="" by="272" sc="1" ec="1" ng="0" na="0" hn="Chechus-MacBook-Pro-2.local">
+  <responseHeader class="java.lang.String">HTTP/1.1 401 Unauthorized
+Referrer-Policy: strict-origin-when-cross-origin
+X-Content-Type-Options: nosniff
+X-Dns-Prefetch-Control: off
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Date: Mon, 27 Apr 2020 22:54:21 GMT
+Content-Length: 0
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Referer: https://console-openshift-console.apps.demo-lab.notesfromchechu.com/
+Accept-Language: en-US,en;q=0.5
+X-CSRFToken: blATV7GAZWipUOtMuVePRxW0ykLaemHzdT0oCiFldbXFeXJE2RIOqN/iItBrcswOMw8LtfJaXsObGgKdtrbfPg==
+Origin: https://console-openshift-console.apps.demo-lab.notesfromchechu.com
+Accept: application/json
+Host: console-openshift-console.apps.demo-lab.notesfromchechu.com
+Content-Type: application/json;charset=UTF-8
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:75.0) Gecko/20100101 Firefox/75.0
+Content-Length: 92
+</requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">openshift-session-token=; csrf-token=blATV7GAZWipUOtMuVePRxW0ykLaemHzdT0oCiFldbXFeXJE2RIOqN/iItBrcswOMw8LtfJaXsObGgKdtrbfPg==; 1e2670d92730b515ce3a1bb65da45062=9f47dda3d5cba9c61bd18047860e9f8b</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&quot;spec&quot;:{&quot;resourceAttributes&quot;:{&quot;resource&quot;:&quot;persistentvolumes&quot;,&quot;verb&quot;:&quot;list&quot;}},&quot;metadata&quot;:{}}</queryString>
+  <java.net.URL>https://console-openshift-console.apps.demo-lab.notesfromchechu.com/api/kubernetes/apis/authorization.k8s.io/v1/selfsubjectaccessreviews</java.net.URL>
+</httpSample>
+
+</testResults>
